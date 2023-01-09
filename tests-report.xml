@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="11" assertions="5" errors="6" warnings="0" failures="3" skipped="0" time="0.206624">
+    <testsuite name="Unit" tests="11" assertions="5" errors="6" warnings="0" failures="3" skipped="0" time="0.206624">
+      <testsuite name="Tests\ExampleTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.044698">
+        <testcase name="test_that_base_endpoint_returns_a_successful_response" class="Tests\ExampleTest" classname="Tests.ExampleTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/ExampleTest.php" line="15" assertions="1" time="0.044698"/>
+      </testsuite>
+      <testsuite name="Tests\SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" tests="6" assertions="0" errors="6" warnings="0" failures="0" skipped="0" time="0.065849">
+        <testcase name="test_can_all_setting_return" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="21" assertions="0" time="0.044067">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_can_all_setting_return
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `users` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:23
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+        <testcase name="test_can_user_get_a_setting" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="33" assertions="0" time="0.002327">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_can_user_get_a_setting
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `settings` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:35
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+        <testcase name="test_user_can_create_setting" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="45" assertions="0" time="0.013714">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_user_can_create_setting
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `users` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:49
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+        <testcase name="test_failer_on_create_setting" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="58" assertions="0" time="0.002284">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_failer_on_create_setting
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `users` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:62
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+        <testcase name="test_user_can_update_setting" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="71" assertions="0" time="0.001512">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_user_can_update_setting
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `settings` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:73
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+        <testcase name="test_user_can_delete_setting" class="Tests\SettingTest" classname="Tests.SettingTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php" line="84" assertions="0" time="0.001945">
+          <error type="Illuminate\Database\QueryException">Tests\SettingTest::test_user_can_delete_setting
+Illuminate\Database\QueryException: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (SQL: select * from `settings` limit 1)
+
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:759
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:719
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Connection.php:421
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2630
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2618
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:3154
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Query/Builder.php:2619
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:698
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Builder.php:682
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Concerns/BuildsQueries.php:296
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/support/Traits/ForwardsCalls.php:23
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2176
+/var/www/html/rewati-laravel-auth-api-test/vendor/illuminate/database/Eloquent/Model.php:2188
+/var/www/html/rewati-laravel-auth-api-test/tests/SettingTest.php:86
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\UserTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="3" skipped="0" time="0.096076">
+        <testcase name="test_user_can_register" class="Tests\UserTest" classname="Tests.UserTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php" line="22" assertions="1" time="0.089147">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\UserTest::test_user_can_register
+Failed asserting that 500 matches expected 200.
+
+/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php:28
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</failure>
+        </testcase>
+        <testcase name="test_user_can_login" class="Tests\UserTest" classname="Tests.UserTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php" line="30" assertions="1" time="0.002913">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\UserTest::test_user_can_login
+Failed asserting that 500 matches expected 200.
+
+/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php:33
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</failure>
+        </testcase>
+        <testcase name="test_login_failer" class="Tests\UserTest" classname="Tests.UserTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php" line="35" assertions="1" time="0.002844">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\UserTest::test_login_failer
+Failed asserting that 500 matches expected 401.
+
+/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php:38
+/usr/share/php/PHPUnit/TextUI/Command.php:143
+/usr/share/php/PHPUnit/TextUI/Command.php:96</failure>
+        </testcase>
+        <testcase name="test_user_not_atuhenticate" class="Tests\UserTest" classname="Tests.UserTest" file="/var/www/html/rewati-laravel-auth-api-test/tests/UserTest.php" line="40" assertions="1" time="0.001173"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
